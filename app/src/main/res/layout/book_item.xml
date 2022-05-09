@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/add_title_here"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:id="@+id/forimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/book_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_library_books_24"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            />
+<!--
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book_img"
+            android:src="@drawable/ic_baseline_library_books_24"
+            android:layout_gravity="center"
+            android:padding="20dp"/>-->
+
+        <TextView
+            android:id="@+id/pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pages:"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/Author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/author_name"
+            android:paddingTop="20dp"
+            android:paddingStart="20dp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

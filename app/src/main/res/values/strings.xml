@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookListing</string>
+    <string name="enter_text_here">Enter book name here</string>
+    <string name="submit">submit</string>
+    <string name="add_title_here">Add title here</string>
+    <string name="author_name">Author name</string>
+</resources>
